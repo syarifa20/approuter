@@ -5,7 +5,7 @@ const data = [
     id: 1,
     title: "Sepatu",
     price: 1000000,
-    image: "https://static 7ae3c13142/air-force-1-07-shoes-WrLlWX.png"
+    image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_409,c_limit/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoes-WrLlWX.png"
   },
   {
     id: 2,
@@ -13,6 +13,13 @@ const data = [
     price: 1300000,
     image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_409,c_limit/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoes-WrLlWX.png"
   },
+  {
+    id: 3,
+    title: "Sepatu 3",
+    price: 1300000,
+    image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_409,c_limit/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoes-WrLlWX.png"
+  },
+
 ];
 
 export async function GET(request: NextRequest) {
