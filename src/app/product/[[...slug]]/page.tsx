@@ -5,7 +5,7 @@ async function getData() {
   //   cache: 'no-store'
   // });
 
-  const res = await fetch("http://localhost:3000/api/products",{
+  const res = await fetch("http://localhost:3000/api/product",{
     cache: 'no-store',
     next: {
       // revalidate : 30
